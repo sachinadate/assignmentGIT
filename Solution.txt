@@ -1,0 +1,59 @@
+This are all the commands
+
+>mkdir assignmentGIT
+
+>cd assignmentGIT
+
+>git init
+
+>git checkout -b Dev
+
+>notepad DevFile1
+
+>git add DevFile1
+
+>git commit -m "DevFile1 created"
+
+>git status
+
+>git checkout -b Test
+
+>notepad TestFile1
+
+>notepad TestFile2
+
+>git add .
+
+>git commit -b  "TestFile1 and TestFile2 created on branch 2"
+
+>git status
+
+>git switch Dev
+
+>notepad DevFile
+
+>git diff
+
+>git status
+
+>git add .
+
+>git commit -m"modified DevFile1"
+
+>git checkout -b master
+
+>git merge Dev
+
+>git merge Test
+
+>git remote add origin https://github.com/sachinadate/assignmentGIT.git
+
+>git push -u origine master
+
+>cd C:/Users/LENOVO/Documents/neosoft/GIT
+
+>git clone https://github.com/sachinadate/assignmentGIT.git
+
+>cd assignmentGit
+
+>notepad Solution
